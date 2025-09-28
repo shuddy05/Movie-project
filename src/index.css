@@ -2,6 +2,8 @@
 body {
   @apply bg-[#10141E] text-white;
 }
-.layout {
-  @apply max-w-[1240px] mx-auto px-4 py-6;
+
+
+::-webkit-scrollbar {
+  display: none;
 }

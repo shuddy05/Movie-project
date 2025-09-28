@@ -28,7 +28,7 @@ const Login = () => {
           <input
             type="email"
             placeholder="Email Address"
-            className={`border-b  w-full p-3 focus:outline-none caret-[#FC4747] ${
+            className={`border-b  w-full p-3 focus:outline-none caret-[#FC4747] ${ 
               errors.email ? "border-b-[#FC4747]" : "border-b-[#5A698F]"
             }`}
             {...register("email")}
